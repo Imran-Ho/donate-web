@@ -140,10 +140,10 @@ a {
     padding-top: 10%;
     
 }
-.price {
-    width: 80%;
-    margin-left: 5%;
-    margin-right: 5%;
+.form {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 5%;
     margin-bottom: 5%;
     padding-left: 5%;
@@ -151,10 +151,13 @@ a {
     box-shadow: 20px 20px 40px gray;
 }
 
-.price-item {
+.email-form {
     display: flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-left: 5%;
     padding-right: 5%;
+    
 }
 
 .youtube {
@@ -162,16 +165,7 @@ a {
     padding-left: 5%;
     padding-right: 20%;
 }
-.instagram {
-    
-    padding-left: 5%;
-    padding-right: 20%;
-}
-.drip {
-    
-    padding-left: 5%;
-    padding-right: 5%;
-}
+
 footer {
     text-align: center;
     background-color: black;
