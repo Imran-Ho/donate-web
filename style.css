@@ -22,11 +22,15 @@ body {
     padding-top: 150px;
     color: white;
 }
-h1 {
+.first-heading-child > h1 {
     font-size: 50px;
     font-weight: 700;
     color: rgb(240, 17, 17);
     padding-bottom: 40px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 700;
 }
 .first-btn {
     padding-top: 40px;
@@ -46,10 +50,14 @@ h1 {
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
-    font-size: 30px;   
+    font-size: 30px;
 }
 #round-shape {
-    border: 1% solid rgb(226, 31, 89);
+    border-style:solid;
+    border-color: rgb(248, 111, 87);
+    background-color: rgb(226, 188, 116);
+    color: red;
+    font-weight: 500;
 }
 .second-heading-child-3 {
     text-align: center;
