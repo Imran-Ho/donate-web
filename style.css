@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arima', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.first-heading {
+    background-image: url(images/101.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 100px;
+}
+.first-heading-child {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(240, 17, 17);
+    padding-bottom: 40px;
+}
+.first-btn {
+    padding-top: 40px;
+}
+
+.second-heading-child-1 {
+    text-align: center;
+}
+.second-heading-child-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.second-heading-child-2 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;   
+}
+#round-shape {
+    border: 1% solid rgb(226, 31, 89);
+}
+.second-heading-child-3 {
+    text-align: center;
+}
+
+hr {width: 60%; margin: 0 20% 0 20%;}
+
+
+.heading-one {
+    display: flex;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    height: 600px;
+    
+    
+}
+.one-part {
+    width: 50%;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    padding-top: 200px;
+
+    
+}
+.one-part-img {
+    width:50%;
+    padding: 30px 30px;
+    
+}
+.one-part-img img {
+    width: 70%;
+    border-radius: 20%;
+}
+a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 1% 2%;
+    border-radius: 10%;
+    color: white;
+}
+.heading-two {
+    display: flex;
+    background-image: url(images/bg3.jpg);
+    height: 580px;
+}
+
+.recipy-title {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.recipy {
+    display: flex;
+    
+}  
+.recipy-item1 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%; 
+    padding-right: 5%;
+    box-shadow: 20px 20px 40px gray;
+}
+
+.recipy-item1 img {
+    width: 80%;
+    padding-top: 10%;
+    
+}
+.recipy-item2 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 20px 20px 40px gray;
+    
+}
+.recipy-item2 img {
+    width: 80%;
+    padding-top: 10%;
+    
+}
+.price {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 20px 20px 40px gray;
+}
+
+.price-item {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.youtube {
+    
+    padding-left: 5%;
+    padding-right: 20%;
+}
+.instagram {
+    
+    padding-left: 5%;
+    padding-right: 20%;
+}
+.drip {
+    
+    padding-left: 5%;
+    padding-right: 5%;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5% 5%;
+}
